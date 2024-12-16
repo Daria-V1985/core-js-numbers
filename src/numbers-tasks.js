@@ -297,12 +297,7 @@ function getSumToN(n) {
  *   5   => 5  // 5
  */
 function getSumOfDigits(num) {
-  let sum = 0;
-
-  while (num !== 0) {
-    sum += parseInt(num / 10, 2) % 10;
-  }
-  return sum;
+  
 }
 
 /**
